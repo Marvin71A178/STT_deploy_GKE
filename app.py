@@ -52,5 +52,5 @@ async def perform_music_pd(request: process_Music_pd):
 
 if __name__ == '__main__':
     load_model()
-    uvicorn.run(app , host = '0.0.0.0' , port = 801)
+    uvicorn.run(app , host = '0.0.0.0' , port = 8080)
     
