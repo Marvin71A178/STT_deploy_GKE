@@ -1,5 +1,5 @@
 import os , sys
-sys.path.append('\\Marvin\\env\\src\\STT_SRC\\Music\\api\\audiocraft')
+
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import FileResponse
 from Music.api.demos.predict import _do_predictions , load_model
